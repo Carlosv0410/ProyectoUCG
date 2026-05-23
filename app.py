@@ -10,7 +10,7 @@ st.sidebar.title("Parámetros")
 st.sidebar.image("Python_logo.png")
 
 
-modulo = st.selectbox(""Seleccione un módulo", ["Módulo 1", "Módulo 2", "Módulo 3"] )
+modulo = st.selectbox("Seleccione un módulo", ["Módulo 1", "Módulo 2", "Módulo 3"] )
 
 
 uploaded_files = st.file_uploader(
